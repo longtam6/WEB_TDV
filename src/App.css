@@ -1,0 +1,226 @@
+.App{
+    min-height: 120vh;
+    max-height: 120vh;
+    background-color: #3b3b98;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+}
+
+.credit{
+    
+    position:absolute;
+    
+    height: 200px;
+    width: 450px;
+    cursor: pointer;
+    top: 100px;
+}
+
+
+.bg{
+    background-color:#23235b;
+    position:absolute;
+    height: 200px;
+    width: 450px;
+}
+.discordicon{
+    position:absolute;
+    top: 72px;
+    left: 160px;
+    height: 30px;
+    width: 30px;
+}
+.by{
+    margin-left: 160px;
+    margin-top: 25px;
+    color: gray;
+}
+.facebook{
+    margin-left: 200px;
+    margin-top: 25px;
+    color: white;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.facebookurl{
+    font-size: 18px;
+}
+
+.faceicon{
+    position:absolute;
+    top: 20px;
+    left: 160px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+img {
+    position:absolute;
+    top: 20px;
+    left: 3px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.al-error{
+    border: 2px solid red;
+    border-radius: 3px;
+}
+
+.container{
+    width: 450px;
+    margin: 0 auto;
+    /* padding-top: 200px; */
+}
+
+.al-select{
+    width: 75%!important;
+}
+
+.generator{
+    margin-bottom: auto;
+    background-color: #23235b;
+    border-radius: 3px;
+    box-shadow: 0px 2px 10px rgba(255,255,255,0.2);
+    padding: 20px;
+    position: relative;
+    bottom: 80px;
+}
+
+.generator_header{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.generator_command {
+    background-color: #fff;
+}
+
+.generator_command > p{
+    position: relative;
+    color: #000;
+}
+
+.generator_command {
+    padding: 5px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+}
+
+
+.copy{
+    position: absolute;
+    background-color: #3b3b98;
+    color: #fff;
+    border: none;
+    height: 40px;
+    padding: 10px;
+    cursor: pointer;
+    top: 3px;
+    right: 3px
+}
+
+.tdvtext{
+    font-size: 15px;
+    font-weight: 50px;
+    margin-top: 8px;
+    
+}
+
+.tdv{
+    position: relative;
+    padding: 30px,10px;
+    height: 35px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.typetdvtext{
+    margin-top: 1px;
+}
+
+.typetdv{
+    position: relative;
+    padding: 30px,10px;
+    height: 25px;
+    width: 250px;
+}
+
+.mainstat{
+    position: relative;
+    padding: 30px,10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 5px;
+    
+}
+
+.mainstattext{
+    font-size: 15px;
+    font-weight: 50px;
+    margin-top: 2px;
+    
+}
+
+.statuptext{
+    font-size: 15px;
+    font-weight: 50px;
+    margin-top: 2px;
+}
+
+.statup{
+    position: relative;
+    padding: 30px,10px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 5px;
+} 
+
+.uid{
+    width: 245px;
+
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.generator_button{
+    background: #3b3b98;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-size: 17px;
+    cursor:pointer;
+}
